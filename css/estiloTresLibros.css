@@ -1,0 +1,147 @@
+
+body{
+	margin: 0;
+}
+header{
+	background-color: #FF00FF;
+	padding: 10px;
+	font-family: "Century Gothic";
+	font-size: 26px;
+}
+h1{
+	font-family: Goudy Stout;
+	color: black;
+	font-size: 50px;
+	margin: 30px;
+	margin-left: 130px;	
+}
+#lista1{
+	font-family: Book Antiqua;
+	list-style-type: none;
+	/*Quita las viñetas*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li a:hover{
+	background-color: #AFEEEE;
+}
+li a{
+	float: left; /*Enviar contenido a la izquierda (navegador)*/
+	display: block; /*Visualización de items*/
+	color: #DAA520;
+	padding: 16px 50px;
+	text-decoration: none; /*Quitar subrayado*/
+}
+.imar{
+	margin-top: 50px;
+}
+p{
+	font-family: "Century Gothic";
+	font-size: 23px;
+	text-align: justify; /*Justificar texto*/
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+figure{
+	display: inline-block;
+}
+#gal{
+	text-align: center; /*Hacer funcionar los dos "figure" anteriores*/
+}
+.imgarticle:hover{
+	transform: scale(1.5);
+}
+footer{
+	clear: both;/*Limpia float*/
+	background-color: #9ACD32;
+	padding: 30px;
+	text-align: center;
+}
+.centraricon{
+	padding: 30px;
+}
+
+#imagen{
+	margin-top: 0px;
+}
+/*Código Drámaticos-Liricos_Epicos*/
+#nm{
+	background-color: #FFA07A;
+	padding: 10px;	
+}
+#mn{
+    clear: both;/*Limpia float*/
+	background-color: #00CED1;
+	padding: 30px;
+	text-align: center;
+}
+h2{
+	margin-left: 250px;
+    font-family: "Bauhaus 93";
+    font-size: 40px;
+	margin-top: 0px;
+	text-align: center;
+ }
+
+/*Código Drámaticos*/
+#Julieta{
+	margin: 30px 50px 30px 80px;
+}
+#a{
+	background-color: #1E90FF;
+}
+#b{
+	background-color: #F4A460;
+}
+/*Código Libros*/
+h3{
+	font-family: "Bauhaus 93";
+	text-align: center;
+	font-size: 40px;
+}
+#galD{
+	text-align: center; /*Hacer funcionar los dos "figure" anteriores*/
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.lib{
+	font-size: 35px;
+}
+.img{
+	float: left; /*Imagenes a la izquierda*/ 
+	margin: 10px 50px 50px 20px; 
+}
+.img2{
+	float: right; /*Imagenes a la derecha*/ 
+	margin: 10px 50px 60px 10px; 
+}
+/*Código 3 Libros*/
+#al{
+	background-color: cyan;
+}
+#la{
+	background-color: #F0E68C;
+}
+.n{
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+    margin-left: 100px;
+}
+h4{
+	margin-left: 150px;
+    font-family: "Bauhaus 93";
+    color: #8B4513;
+    font-size: 40px;
+	margin-top: 40px;
+	text-align: center;
+ }
+#S{
+	margin-right: 70px;
+}
+#galli{
+    text-align: center; /*Hacer funcionar los dos "figure" anteriores*/
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
